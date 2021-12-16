@@ -5,20 +5,42 @@ nav{
     justify-content: space-between;
 }
 
-.alanimg{
-    display: block;
+body{
+    background-color: green;
 }
+
 
 h1{
     text-align: center;
     font-size: 50px;
 }
 
-.me{
-    border: 20px;
-    margin-bottom: 20px;
+
+li {
+    float: left;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+   
+}
+  
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: red;
+}
 
 @media screen and (max-width: 992px)
 {
@@ -35,6 +57,21 @@ h1{
 }
 
 
+.alanimg{
+    display: block;
+    height: 25%;
+    width: 25%;
+  
+}
+
+.html{
+ display: inline-block;
+ width: 25%;
+}
+
+.html:hover{
+    color: white;
+}    
 
 
 
