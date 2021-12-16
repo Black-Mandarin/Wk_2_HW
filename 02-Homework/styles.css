@@ -65,18 +65,29 @@ li a:hover {
 }
 
 .html{
- display: inline-block;
- width: 25%;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    width: 50%;
+    height: 50%;
 }
 
 .html:hover{
-    color: white;
+    opacity: 0.5;
 }    
 
 
+.Contact{
+    width: 50px;
+    height: 50px%;
 
+}
 
 footer{
     text-align: center;
     font-size: 10;
 }
+
